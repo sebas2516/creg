@@ -1,3 +1,4 @@
+
 var pricesList = [];
 
 function savePricesToSystem(pCiudad, pGasolina, pAcpm){
@@ -9,3 +10,7 @@ function savePricesToSystem(pCiudad, pGasolina, pAcpm){
     console.log(priceObject)
     pricesList.push(priceObject);
 };
+
+function getPricesList(){
+    return pricesList;
+}
